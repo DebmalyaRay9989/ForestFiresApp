@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'rx(r)rlknyynw+s3h7d)-2$=@dyj46f$=pqk85z7+&m^@@80n#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['forest-fires-new.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['forestfiresapp.onrender.com', '127.0.0.1']
 
 
 # Application definition
